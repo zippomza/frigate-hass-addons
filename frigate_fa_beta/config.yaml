@@ -70,3 +70,6 @@ map:
   - "addon_config:rw"
   # Mount old config dir to be migrated by the image
   - "homeassistant_config:rw"
+devices:
+  - /dev/dri
+  - /dev/kfd
