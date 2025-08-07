@@ -73,3 +73,5 @@ map:
 devices:
   - /dev/dri
   - /dev/kfd
+environment:
+  HSA_OVERRIDE_GFX_VERSION: "9.0.0"
